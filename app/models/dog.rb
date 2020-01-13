@@ -2,7 +2,7 @@ class Dog < application_controller
 
 attr_accessor :name, :breed, :age
 
-  def initialize()
+  def initialize(@dog)
     @name = :name
     @breed = :breed
     @age = :age
